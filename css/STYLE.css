@@ -33,11 +33,6 @@ header img{
 header a:hover{
     background-color: #8bdba9;
 }
-@media (max-width:700px){
-    header{
-        flex-direction: column;
-    }
-}
 .img img{
     max-width: 100%;
 }
@@ -169,4 +164,46 @@ header a:hover{
     text-decoration: none;
     font-weight: bold;
     color: #8ab343;
+}
+@media screen and (max-width: 900px){
+    .menu img{
+        align-items: center;
+    }
+    header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin:0;
+        padding: 7px;
+    }
+    header img{
+        margin: 10px;
+    }
+    .menu a{
+        padding: 7px;
+        margin: 7px;
+    }
+    .body{
+        display: block;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .body div{
+        max-width: 80%;
+    }
+    .pcolor{
+        text-align: center;
+    }
+    .c{
+        display: block;
+    }
+
+    .c div{
+        margin: 20px;
+    }
+    .P{
+        display: block;
+        align-items: center;
+    } 
 }

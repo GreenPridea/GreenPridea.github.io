@@ -47,11 +47,28 @@ header img{
 header a:hover{
     background-color: #8bdba9;
 }
-@media (max-width:700px){
+@media (max-width:900px){
     header{
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin:0;
+        padding: 7px;
     }
-}
-.img img{
-    max-width: 100%;
+    header img{
+        margin: 10px;
+    }
+    .menu a{
+        padding: 7px;
+        margin: 7px;
+    }
+    .img img{
+        max-width: 100%;
+    }
+    body h1{
+        font-size: 72px;
+    }
+    body p{
+        font-size: 30px;
+    }
 }
