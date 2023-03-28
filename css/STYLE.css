@@ -166,6 +166,9 @@ header a:hover{
     color: #8ab343;
 }
 @media screen and (max-width: 900px){
+    body{
+        margin-right: 0;
+    }
     .menu img{
         align-items: center;
     }
@@ -175,6 +178,7 @@ header a:hover{
         align-items: center;
         margin:0;
         padding: 7px;
+        padding: 0;
     }
     header img{
         margin: 10px;
@@ -188,9 +192,12 @@ header a:hover{
         text-align: center;
         justify-content: center;
         align-items: center;
+        width: 100%;
+        box-sizing:border-box;
     }
     .body div{
         max-width: 80%;
+        box-sizing: content-box;
     }
     .pcolor{
         text-align: center;
@@ -205,5 +212,13 @@ header a:hover{
     .P{
         display: block;
         align-items: center;
-    } 
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .P img{
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
 }
