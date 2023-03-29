@@ -1,7 +1,7 @@
 body{
     margin: 0;
     background-color: blanchedalmond;
-    font-family: cursive;
+    font-family: AHintofSass;
     padding: 20px;
 }
 body h1{
@@ -29,6 +29,10 @@ header img{
 @font-face {
     font-family: WITHOUT;
     src: url(WITHOUT.otf);
+}
+@font-face {
+    font-family: AHintofSass;
+    src: url(AHintofSass.ttf);
 }
 .menu{
     display: flex;
